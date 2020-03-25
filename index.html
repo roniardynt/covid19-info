@@ -27,10 +27,10 @@
     <script src="/scripts/main.js" defer></script>
   </head>
   <body>
-    <section class="container">
+        <section class="container">
       <div class="head">
         <h1>
-          Info COVID - 19
+          <span class="label label-success">Info</span> COVID - 19
         </h1>
       </div>
       <div>
@@ -39,7 +39,7 @@
         </h4>
       </div>
       <div class="columns data data-global">
-        <div class="card data-terjangkit column col-mx-auto">
+        <div class="card data-terjangkit column col-mx-auto"  data-tilt>
           <div class="card-header">
             <div class="card-title h5">Total Terjangkit</div>
             <div class="card-subtitle h5">
@@ -50,7 +50,7 @@
             <h6 id="jumlah-terjangkit" class="text-warning"></h6>
           </div>
         </div>
-        <div class="card data-sembuh column col-mx-auto">
+        <div class="card data-sembuh column col-mx-auto"  data-tilt >
           <div class="card-header">
             <div class="card-title h5 ">Total Sembuh</div>
             <div class="card-subtitle h5">
@@ -61,7 +61,7 @@
             <h6 id="jumlah-sembuh" class="text-success"></h6>
           </div>
         </div>
-        <div class="card data-meninggal column col-mx-auto">
+        <div class="card data-meninggal column col-mx-auto" data-tilt >
           <div class="card-header">
             <div class="card-title h5">Total Meninggal</div>
             <div class="card-subtitle h5">
@@ -79,7 +79,7 @@
         </h4>
       </div>
       <div class="columns data data-global">
-        <div class="card data-terjangkit column col-mx-auto">
+        <div class="card data-terjangkit column col-mx-auto" data-tilt >
           <div class="card-header">
             <div class="card-title h5">Total Terjangkit</div>
             <div class="card-subtitle h5">
@@ -90,7 +90,7 @@
             <h6 id="jt-indo" class="text-warning"></h6>
           </div>
         </div>
-        <div class="card data-sembuh column col-mx-auto">
+        <div class="card data-sembuh column col-mx-auto" data-tilt >
           <div class="card-header">
             <div class="card-title h5 ">Total Sembuh</div>
             <div class="card-subtitle h5">
@@ -101,7 +101,7 @@
             <h6 id="js-indo" class="text-success"></h6>
           </div>
         </div>
-        <div class="card data-meninggal column col-mx-auto">
+        <div class="card data-meninggal column col-mx-auto" data-tilt >
           <div class="card-header">
             <div class="card-title h5">Total Meninggal</div>
             <div class="card-subtitle h5">
@@ -118,7 +118,9 @@
         <br />
         API Provided by <a href="https://github.com/mathdroid/covid-19-api">Mathdroid</a>
       </div>
-    </section>
+    </section> 
   </body>
+  <!--- Import tilt.javascript  -->
+  <script src="/scripts/tilt.js"></script>
 </html>
 
