@@ -19,7 +19,7 @@ fetch("https://covid19.mathdro.id/api")
     jumlah_terjangkit.innerHTML = data.confirmed.value;
     jumlah_sembuh.innerHTML = data.recovered.value;
     jumlah_meninggal.innerHTML = data.deaths.value;
-    console.log(data);
+    //console.log(data);
   })
   .catch(function(err) {
     // There was an error
